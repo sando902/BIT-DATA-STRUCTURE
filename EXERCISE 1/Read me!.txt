@@ -1,0 +1,74 @@
+Project 78: Job Fair CV Tally By MUTONI SANDRINE
+
+In the project I was given about:
+
+1. Integers:
+
+I started with a list of integers representing the number of CVs collected from different booths at a job fair.
+
+I calculated key Operations:
+
+Total CVs collected by adding all values.
+
+Average CVs per booth by dividing the total by the number of booths.
+
+Minimum and maximum CVs to understand the range of data.
+
+2. Strings:
+
+Using Python’s f-strings, I created a summary string.
+
+This report cleary shows the totals and averages that was calcurated earlier.
+
+3. Booleans:
+
+I defined a threshold for the average number of CVs (40 in this case).
+
+Applied a compound boolean condition:
+
+The average CVs must exceed the threshold AND at least one booth must have more than 60 CVs.
+
+Based on this condition, the program printed a status message:
+
+"Above Standard" if conditions met.
+
+"Below Standard" if conditions are not met.
+
+4. Lists:
+
+A list of booth names was made corresponding to the CV data.
+
+I made list operations:
+
+Adding a new booth with append().
+
+Removing booths based on a condition (e.g., booth names ending with “D”).
+
+Sorting the list alphabetically with sort().
+
+5. Arrays: 
+
+I stored a fixed-size subset of CV counts, using Python’s array module.
+
+and calculated the sum of this array and compared it to the sum of the same slice from the original list.
+
+It shows equivalency in calculations between arrays and lists.
+
+6. Dictionaries:
+
+I created a list of dictionaries each representing a booth record with fields:
+
+id (unique identifier),
+
+name (booth name),
+
+value (number of CVs).
+
+Dictionary operations:
+
+Updating the CV count for a specific booth (e.g., Booth C).
+
+Deleting a record (Booth D).
+
+Calculated the total CVs after updates to relate to current data.
+
